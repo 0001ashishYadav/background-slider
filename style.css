@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.img-con {
+  height: 60%;
+  width: 60%;
+  border: 2px solid red;
+  position: relative;
+}
+
+.prevBtn,
+.nextBtn {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  background-color: bisque;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.prevBtn {
+  left: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nextBtn {
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+}
